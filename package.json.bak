@@ -5,6 +5,7 @@
   "main": "main_html.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+	"start": "node main_html.js"
   },
   "repository": {
     "type": "git",
