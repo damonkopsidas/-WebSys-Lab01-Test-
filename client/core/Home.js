@@ -70,15 +70,13 @@ export default function Home(){
           <Typography variant="h6" className={classes.title}>
             Home Page
           </Typography>
-          <Link to="/users"> Users </Link>
+          
           <CardMedia className={classes.media} image={myImg} title="My Image"/>
-          <Typography variant="body2" component="p" className={classes.credit} color="textSecondary">Photo: Chompster</Typography>
+          <Typography variant="body2" component="p" className={classes.credit} color="textSecondary">Photo: Titicaca Scrotum Frog</Typography>
+          <Typography variant="body2" component="p" className={classes.credit} color="textSecondary">(source: https://www.dw.com/en/global-ideas-environment-peru-titicaca-frog/a-36077273)</Typography>
           <CardContent>
             <Typography variant="body1" component="p">
-              Welcome to Lab 6 home page.
-              <div>
-              {jokes.joke}
-              </div>
+              Welcome to Love-for-the-Uglies.
             </Typography>
           </CardContent>
         </Card>

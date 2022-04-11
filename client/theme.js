@@ -7,19 +7,19 @@ const theme = createTheme({
     },
     palette: {
       primary: {
-      light: '#5c67a3',
-      main: '#3f4771',
-      dark: '#2e355b',
+      light: '#bb80ff',
+      main: '#66468a',
+      dark: '#51386e',
       contrastText: '#fff',
     },
     secondary: {
-      light: '#ff79b0',
-      main: '#ff4081',
-      dark: '#c60055',
+      light: '#c18bfc',
+      main: '#c18bfc',
+      dark: '#9636ff',
       contrastText: '#000',
     },
       openTitle: '#3f4771',
-      protectedTitle: pink['400'],
+      protectedTitle: '#ae6ef5',
       type: 'light'
     }
   });
