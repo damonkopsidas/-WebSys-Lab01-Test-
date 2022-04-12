@@ -9,6 +9,7 @@ import PrivateRoute from './auth/PrivateRoute'
 import Profile from './user/Profile'
 import EditProfile from './user/EditProfile'
 import UserAdmin from './user/UsersAdmin'
+import Comments from '../comments/CommentsPage'
 
 const MainRouter = () => {
     return (<div>
@@ -16,11 +17,13 @@ const MainRouter = () => {
       <Switch>
         <Route exact path="/" component={Home}/>
         <Route path="/users" component={Users}/>
+        <Route path="/comments" component={Comments}/>
         <Route path="/signup" component={Signup}/>
         <Route path="/signin" component={Signin}/>
         <PrivateRoute path="/user/edit/:userId" component={EditProfile}/>
         <Route path="/user/:userId" component={Profile}/>
         <Route path="/useradmin/:userId" component={UserAdmin}/>
+        
       </Switch>
     </div>)
 }
